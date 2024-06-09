@@ -1,0 +1,41 @@
+/* styles.css */
+:root {
+    --colorPrimary: #3498db;
+    --colorSecondary: #f1c40f;
+    --colorSurface: #fff;
+    --colorOnSurface: #333;
+    --colorOnSecondary: #666;
+    --textColorPrimary: #333;
+    --textColorSecondary: #666;
+    --textColorSecondaryVariant: #999;
+    --colorError: #e74c3c;
+    --colorOnError: #e74c3c;
+    --rippleOnSecondaryColor: #f1c40f;
+    --separatorColor: #ddd;
+    --infoColorVariant: #3498db;
+    --colorStatusBar: #3498db;
+    --colorOnPrimary: #fff;
+    --navigationBar: #3498db;
+    --borderColor: #ddd;
+    --clear: transparent;
+}
+
+header {
+    background-color: var(--colorPrimary);
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
